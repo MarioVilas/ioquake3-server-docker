@@ -16,10 +16,10 @@ Configuration
 -------------
 
 There are two configuration files in the baseq3 directory:
-* [autoexec.cfg](../blob/master/q3a/baseq3/autoexec.cfg)
-* [server.cfg](../blob/master/q3a/baseq3/server.cfg)
+* [autoexec.cfg](../master/q3a/baseq3/autoexec.cfg)
+* [server.cfg](../master/q3a/baseq3/server.cfg)
 
-In *autoexec.cfg* you should only set the most basic server settings, such as the IP address to bind to or the port number, whether the server should be listed globally or stay private, etc. By default it will bind on 0.0.0.0 on port 27960 and will **not** be listed publicly, which is useful for a LAN party. **NOTE**: if you change the port number you'll have to adjust the [Dockerfile](../blob/master/Dockerfile) and [docker-compose.yml](../blob/master/docker-compose.yml) files too.
+In *autoexec.cfg* you should only set the most basic server settings, such as the IP address to bind to or the port number, whether the server should be listed globally or stay private, etc. By default it will bind on 0.0.0.0 on port 27960 and will **not** be listed publicly, which is useful for a LAN party. **NOTE**: if you change the port number you'll have to adjust the [Dockerfile](../master/Dockerfile) and [docker-compose.yml](../master/docker-compose.yml) files too.
 
 In *server.cfg* you will find the vast majority of settings. These are too many to list here so check out the file itself for comments. By default it will start in FFA mode with every single default map in order.
 
