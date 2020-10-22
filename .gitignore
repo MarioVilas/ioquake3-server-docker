@@ -1,0 +1,5 @@
+*.log
+*.pk3
+q3config_server.cfg
+q3key
+ioq3_server.pid

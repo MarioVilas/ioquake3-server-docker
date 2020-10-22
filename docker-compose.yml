@@ -1,0 +1,24 @@
+---
+version: '3.8'
+
+services:
+  ioquake3:
+    build: .
+    image: ioquake3
+    volumes:
+      - "./q3a/:/home/ioquake3/.q3a/:ro"
+    ports:
+      - target: 27960
+        published: 27960
+        protocol: udp
+        mode: host
+    privileged: false
+    read_only: true
+    restart: unless-stopped
+    sysctls:
+      net.ipv6.conf.all.disable_ipv6: 0
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "200k"
+        max-file: "10"
