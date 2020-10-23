@@ -25,6 +25,17 @@ In *server.cfg* you will find the vast majority of settings. These are too many 
 
 **IMPORTANT: MAKE SURE TO SET A NEW PASSWORD!**
 
+Troubleshooting
+---------------
+
+* If when you start the server it complains about missing pak0.pk3, that means you either didn't copy the data files from an original copy of Quake III Arena, or there is some kind of permissions issue with the q3a folder. Make sure the folder is world readable since the container runs with very low privileges.
+
+* If you changed the port number and now clients can't connect, check if you also modified the port number in Dockerfile and docker-compose.yml, then stop the service with "docker-compose down" and re-create it with "docker-compose up -d --build" to force a rebuild of the image. If all else fails check if you have firewall rules that may be messing with you. Also, remember to use a port number greater than 1024 since the container runs without privileges and you can't open low ports without root, at least not by default.
+
+* If the map rotation gets stuck on the same map and never switches to the next one, check for typos in the map rotation part of server.cfg. Quake won't warn you if you put a /nextmap that doesn't exist, it just gets stuck there.
+
+* You can check the server logs with "docker-compose logs --follow".
+
 Acknowledgements
 ----------------
 
