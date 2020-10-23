@@ -25,6 +25,8 @@ In *server.cfg* you will find the vast majority of settings. These are too many 
 
 **IMPORTANT: MAKE SURE TO SET A NEW PASSWORD!**
 
+Tip: you can edit the shortcut to Quake in your computer add add this: "+connect server:27960" where "server" is the hostname where you installed the server. Then it will connect automatically when you launch the game. :)
+
 Troubleshooting
 ---------------
 
