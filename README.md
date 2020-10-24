@@ -43,4 +43,4 @@ Troubleshooting
 Acknowledgements
 ----------------
 
-A big thank you to @roguephysicist for their handy [install guide](https://github.com/roguephysicist/q3a-server), Erik Max Francis for his amazing Quake III Arena guide at [BossKey.Net](http://www.bosskey.net/q3a/index.html), and the [Quake3World](https://www.quake3world.com/forum/) forums which are simply the best for troubleshooting the server.
+A big thank you to @roguephysicist for their handy [install guide](https://github.com/roguephysicist/q3a-server), Erik Max Francis for his amazing Quake III Arena guide at [BossKey.Net](http://www.bosskey.net/q3a/index.html), and the [Quake3World](https://www.quake3world.com/forum/) forums which are simply the best for troubleshooting the server, and [..::LvL](https://lvlworld.com/) for its amazing unofficial maps.
