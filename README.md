@@ -38,6 +38,8 @@ Troubleshooting
 
 * You can check the server logs with "docker-compose logs --follow".
 
+* If you added non official maps and clients get an error message when connecting saying the map can't be found, that's because clients have map autodownload turned off by default. Here's how to enable it: https://openarena.fandom.com/wiki/Manual/Automatic_downloading
+
 Acknowledgements
 ----------------
 
