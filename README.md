@@ -40,6 +40,8 @@ Troubleshooting
 
 * If you added non official maps and clients get an error message when connecting saying the map can't be found, that's because clients have map autodownload turned off by default. Here's how to enable it: https://openarena.fandom.com/wiki/Manual/Automatic_downloading
 
+* For general tips on administering a server, check out: https://www.earthli.com/quake/server_admin.php
+
 Acknowledgements
 ----------------
 

@@ -2,6 +2,7 @@
 version: '3.8'
 
 services:
+
   ioquake3:
     build: .
     image: ioquake3
