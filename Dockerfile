@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 RUN apt update && apt install -y ioquake3-server
 ENTRYPOINT [ "/usr/lib/ioquake3/ioq3ded", "+exec", "server.cfg" ]
 RUN groupadd -r ioquake3 && \
